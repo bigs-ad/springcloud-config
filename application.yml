@@ -13,3 +13,9 @@ spring:
   profiles: test
   application:
     name: springcloud-config-test
+
+---
+spring:
+  profiles: pro
+  application:
+    name: springcloud-config-pro
